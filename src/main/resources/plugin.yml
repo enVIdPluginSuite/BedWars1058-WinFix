@@ -1,0 +1,9 @@
+name: BedWars1058-WinFix
+version: ${version}
+main: dev.etran.bedwarswinfix.WinFixPlugin
+description: Fills in the end-of-game (winner / top kills) sidebar for BedWars1058 with the real game state.
+author: etran
+website: https://bedwars.mc.etran.dev
+depend: [BedWars1058]
+# Ignored by 1.8-1.12 servers, and stops 1.13+ servers from treating the addon as a legacy plugin.
+api-version: 1.13
